@@ -104,3 +104,42 @@ p {
     background-color: #1B1B3A;
     border: 1px solid #ED7D3A;
 }
+
+@media screen and (max-width: 640px){
+    header ul {
+        display: block;
+    }
+    .sobre-a-loja {
+        display: flex;
+        flex-direction: column;
+        margin: 2vw;
+    }
+
+    .sobre-a-loja img {
+        margin-right: 0;
+        justify-content: center;
+        margin-bottom: 2vw;
+    }
+
+    p {
+        padding-bottom: 1vw;
+    }
+
+    .catalogo ul {
+        display: flex;
+        flex-direction: column;
+        margin: 0 3vw;
+    }
+
+    .catalogo li {
+        margin: 1.5vw 0;
+    }
+
+    .catalogo button {
+        transition: none;
+    }
+
+    .catalogo button:hover {
+    all: unset;
+    }
+}
