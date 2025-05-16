@@ -140,6 +140,47 @@ p {
     }
 
     .catalogo button:hover {
-    all: unset;
+        all: unset;
     }
+}
+
+@media screen and (min-width: 641px) and (max-width: 1023px){
+
+        .container {
+            margin: 0 10vw;
+        }
+
+        .sobre-a-loja {
+            display: flex;
+            flex-direction: column;
+            margin: 5vw 10vw;
+        }
+
+        .sobre-a-loja img {
+            margin-right: 0;
+            justify-content: center;
+            margin-bottom: 2vw;
+        }
+
+        p {
+            padding-bottom: 1vw;
+        }
+
+        .catalogo ul {
+            grid-template-columns: repeat(2, 49.5%);
+            column-gap: 2%;
+            margin: 0 3vw;
+        }
+
+        .catalogo li {
+            margin: 1.5vw 0;
+        }
+
+        .catalogo button {
+            transition: none;
+        }
+
+        .catalogo button:hover {
+            all: unset;
+        }
 }
